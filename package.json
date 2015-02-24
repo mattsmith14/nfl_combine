@@ -1,0 +1,24 @@
+{
+  "name": "nfl-combine",
+  "version": "1.0.0",
+  "description": "Grab some data from the NFL combine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varfoo/nfl_combine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varfoo/nfl_combine/issues"
+  },
+  "homepage": "https://github.com/varfoo/nfl_combine",
+  "dependencies": {
+    "phantomjs": "^1.9.15",
+    "x-ray": "^1.0.3",
+    "x-ray-phantom": "0.0.1"
+  }
+}
