@@ -11,4 +11,6 @@ xray('http://www.nfl.com/combine/tracker')
     position: '.position',
     time: '.result'
   }])
+  .paginate('li.next a')
+  .delay(2000, 10000)
   .write('out.json');
